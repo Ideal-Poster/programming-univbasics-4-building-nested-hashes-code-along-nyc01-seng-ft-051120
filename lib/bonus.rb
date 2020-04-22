@@ -25,7 +25,7 @@ def bonus
   #code your solution here:
 
   binding.pry
-  puts epic_tragedy[:montague][:hero][:status]
+  epic_tragedy[:montague][:hero][:status] = "dead"
   # epic_tragedy[:capulet][:hero][:status]
   
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
