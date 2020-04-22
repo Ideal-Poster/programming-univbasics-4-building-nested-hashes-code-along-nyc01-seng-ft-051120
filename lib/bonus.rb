@@ -24,6 +24,7 @@ def bonus
 
   #code your solution here:
 
+  binding.pry
   puts epic_tragedy[:montague][:hero][:status]
   # epic_tragedy[:capulet][:hero][:status]
   
